@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <title>フォームに入力された数値の取得</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    	body{
+    		font-size: 16px;
+    	}
+    	#container{
+    		margin: 0 auto;
+
+    	}
+    	input{
+    		width: 180px;
+    		font-size: medium;
+    	}
+    	button{
+    		font-size: medium;
+    	}
+    </style>	
+ </head>
+ 
+ <body>
+ 	<div id="container">
+ 	<h1>FizzBuzz問題</h1>
+    <form>
+        <label for="textForm1">FizzNum:&nbsp;	</label>
+        <input type="text" id="textForm1" placeholder="整数値を入力してください"><br>
+ 
+        <label for="textForm2">BuzzNum:&thinsp;</label>
+        <input type="text" id="textForm2" placeholder="整数値を入力してください"><br>
+ 
+        <button id="button">実行</button>
+    </form>
+ 
+	<label for="result">【出力】: </label>
+	<div id="resultArea"></div>
+
+ 	</div>
+    <script src="js/main.js"></script>
+ </body>
+</html>
